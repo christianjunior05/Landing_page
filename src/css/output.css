@@ -554,15 +554,42 @@ video {
   display: none;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.flex {
+  display: flex;
 }
 
-.font-bold {
-  font-weight: 700;
+.justify-between {
+  justify-content: space-between;
 }
 
-.underline {
-  text-decoration-line: underline;
+.bg-\[hero\] {
+  background-color: hero;
+}
+
+.bg-\[url\(\'\/src\/img\/1\.png\'\)\] {
+  background-image: url('/src/img/1.png');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.pt-\[300px\] {
+  padding-top: 300px;
+}
+
+.pt-\[300vh\] {
+  padding-top: 300vh;
 }
