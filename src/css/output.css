@@ -586,6 +586,10 @@ video {
   margin-right: 2.5rem;
 }
 
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -690,6 +694,10 @@ video {
 
 .font-bold {
   font-weight: 700;
+}
+
+.font-light {
+  font-weight: 300;
 }
 
 .text-black {
