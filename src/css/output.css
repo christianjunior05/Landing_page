@@ -590,6 +590,14 @@ video {
   margin-left: 2.5rem;
 }
 
+.mt-\[5vh\] {
+  margin-top: 5vh;
+}
+
+.mt-\[25vh\] {
+  margin-top: 25vh;
+}
+
 .flex {
   display: flex;
 }
